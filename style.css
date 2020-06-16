@@ -1,0 +1,73 @@
+body {
+  background-color: lightblue;
+}
+.same {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  background-color: purple;
+  border: 2px solid black;
+}
+#second {
+  border-radius: 60px;
+}
+#third {
+  border-radius: 100%;
+}
+#fourth {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#fifth {
+  border-top-left-radius: 100%;
+}
+#sixth {
+  border-radius: 40px;
+}
+#seventh {
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+#eight {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.different {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border: 5px solid red;
+  margin: 50px 50px;
+  border-radius: 20px;
+  display: inline-block;
+}
+#nine {
+  box-shadow: 8px 8px 10px 5px orangered inset;
+  margin: 50px 50px;
+}
+#ten {
+  box-shadow: 8px 8px 10px 5px orangered;
+  margin: 50px 50px;
+}
+#eleven {
+  width: 350px;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+#twelve {
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+}
+#dandi {
+  width: 10px;
+  height: 400px;
+  background-color: rgb(179, 132, 31);
+  float: left;
+}
